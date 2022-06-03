@@ -2,8 +2,8 @@
 #include <time.h>
 /* can contain more headers*/
 #include <stdio.h>
-/*
- * main - used to check the condition
+/**
+ * main - used to check the condition 
  *
  * Description - to check and return result of the function
  *
