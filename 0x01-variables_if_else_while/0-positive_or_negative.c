@@ -3,7 +3,7 @@
 /* can contain more headers*/
 #include <stdio.h>
 /*
- * main - used to call the function
+ * main - used to check the condition
  *
  * Description - to check and return result of the function
  *
@@ -21,7 +21,8 @@ int main(void)
 		printf("%d is positive\n", n);
 	} else if (n < 0)
 	{ printf("%d is negative\n", n);
-	} else 
+	} 
+	else
 	{ printf("%d is zero\n", n);
 	}
 	return (0);
