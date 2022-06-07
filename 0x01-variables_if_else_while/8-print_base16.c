@@ -12,11 +12,11 @@ int main(void)
 
 	char letter;
 
-	for (digit = o; digit <= 9; digit++)
+	for (digit = 0; digit <= 9; digit++)
 		putchar((digit % 10) + '0');
 
 	for (letter = 'a'; letter <= 'f'; letter++)
 		putchar(letter);
 	putchar('\n');
 	return (0);
-}
+i}
