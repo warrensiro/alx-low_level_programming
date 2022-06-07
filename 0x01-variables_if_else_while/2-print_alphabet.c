@@ -13,7 +13,7 @@ int main(void)
 
 	c = 'a';
 
-	while (c <= 's')
+	while (c <= 'z')
 	{
 		putchar(c);
 		c++;
