@@ -6,7 +6,6 @@
  *
  * Return: always 0 success
 */
-#include <main.h>
 int main(void)
 {
 	char *m = _putchar;
