@@ -8,13 +8,13 @@
 */
 int main(void)
 {
-	char *m = _putchar;
+	char *m ="_putchar";
 	while(*m)
 	{
 		_putchar(*m);
 		m++;
 	}
-	_putchar("\n");
+	_putchar('\n');
 
 	return (0);
 }
