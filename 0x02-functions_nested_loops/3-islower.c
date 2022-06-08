@@ -2,7 +2,7 @@
 /**
  * _islower - entry point for this program to check for lowercase letters
  *
- * @c - parameter for command
+ * @c: parameter for command
  *
  * description - checks for lowercase letters
  *
