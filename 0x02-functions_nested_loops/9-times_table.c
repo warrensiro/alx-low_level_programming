@@ -36,7 +36,6 @@ void times_table(void)
 				_putchar(' ');
 			}
 			if (num1 = 0)
-				while (num2 > 0)
 			{
 				_putchar(' ');
 			}
