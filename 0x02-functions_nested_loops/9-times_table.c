@@ -35,7 +35,8 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 			}
-			if (num1 = 0 && num2 > 0)
+			if (num1 = 0)
+				while (num2 > 0)
 			{
 				_putchar(' ');
 			}
