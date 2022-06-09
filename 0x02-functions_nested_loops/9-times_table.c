@@ -18,10 +18,11 @@ void times_table(void)
 
 			if (prod == 0)
 			{
-				if (num1 == 0 && num2 > 0)
+				if (num1 = 0 && num2 > 0)
 				{
-					_putchar(' ');
+					
 					_putchar((prod % 10) + '0');
+					_putchar(' ');
 				}
 				
 			}
