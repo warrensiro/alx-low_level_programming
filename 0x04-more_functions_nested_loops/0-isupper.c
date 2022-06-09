@@ -12,7 +12,6 @@ int _isupper(int c)
 {
 	char c;
 
-	for ((c >= 'A') && (c <= 'Z'))
 	if (c = 'A')
 	{
 		printf("%c: %d\n", c, _isupper(c));
