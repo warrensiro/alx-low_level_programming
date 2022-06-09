@@ -31,15 +31,16 @@ void times_table(void)
 				_putchar((prod / 10) + '0');
 				_putchar((prod % 10) + '0');
 			}
-			if (num1 == 0)
-			{
-				_putchar(' ');
-			}
 			if (num2 != 9)
 			{
 				_putchar(',');
 				_putchar(' ');
 			}
+			if (num1 == 0)
+				while (num2 > 0 && num2 <= 9)
+				{
+				_putchar(' ');
+				}	
 		}
 		_putchar('\n');
 	}
