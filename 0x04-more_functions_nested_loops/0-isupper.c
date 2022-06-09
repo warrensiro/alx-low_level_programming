@@ -10,15 +10,5 @@
 
 int _isupper(int c)
 {
-	char c;
-
-	if (c = 'A')
-	{
-		printf("%c: %d\n", c, _isupper(c));
-	}
-	else
-	{
-		printf("%c: %d\n", c, _isupper(c));
-	}
-	return (0);
+	return (c >= 'A' && c <= 'Z');
 }
