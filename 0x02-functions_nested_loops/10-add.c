@@ -12,7 +12,7 @@ int add(int m, int n)
 {
 	int results;
 
-	result = a + b;
+	results = m + n;
 
-	return (result);
+	return (results);
 }
