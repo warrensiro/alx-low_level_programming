@@ -35,10 +35,6 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 			}
-			if (num1 = 0)
-			{
-				_putchar(' ');
-			}
 		}
 		_putchar('\n');
 	}
