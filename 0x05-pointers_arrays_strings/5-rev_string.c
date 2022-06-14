@@ -21,7 +21,6 @@ void rev_string(char *s)
 	}
 
 	y = z - 1;
-	
 	for ( ; x < ((y / 2) + 1) ; x++)
 	{
 		w = (y - x);
