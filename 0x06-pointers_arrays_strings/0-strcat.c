@@ -8,13 +8,17 @@
  *
  * description - copy string 2 to string 1
  *
- * Return: 0
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
-	strcpy(dest, "hey ");
-	strcpy(src, "Warren\0");
-	strcat(dest, src);
-	printf("%s\n", dest);
-	return (0);
+	int first = 0, dest_len = 0;
+
+	while (dest[first++])
+		dest_len++;
+
+	for (first = 0; src[first]; first++)
+		dest[dest_len++] = src[first];
+	
+	return (dest);
 }
