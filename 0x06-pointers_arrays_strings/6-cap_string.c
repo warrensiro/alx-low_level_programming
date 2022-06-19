@@ -27,6 +27,7 @@ char *cap_string(char *y)
 			case ')':
 			case '{':
 			case '}':
+			case ' ':
 			case '\n':
 			case '\t':
 				if (y[z + 1] > 96 && y[z + 1] < 123)
