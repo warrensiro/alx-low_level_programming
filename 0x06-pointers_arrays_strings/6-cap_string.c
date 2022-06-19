@@ -8,6 +8,7 @@
 char *cap_string(char *y)
 {
 	int z = 0;
+
 	if (y[0] >= 'a' && y[0] <= 'z')
 	{
 		y[0] -= 32;
