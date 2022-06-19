@@ -15,7 +15,7 @@ char *leet(char *y)
 	{
 		for (n = 0; n <= 9; n++)
 		{
-			if (y[m] == find [n])
+			if (y[m] == find[n])
 			{
 				y[m] = replacer[n / 2];
 				n = 9;
