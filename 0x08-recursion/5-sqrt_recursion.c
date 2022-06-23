@@ -14,7 +14,7 @@ int sqrt_a(int y, int z)
 	}
 	else if (z * z > y)
 	{
-		retur (-1);
+		return (-1);
 	}
 	else
 	{
