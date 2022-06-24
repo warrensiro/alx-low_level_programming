@@ -5,7 +5,7 @@
  * make_change - check code for lowest number of coins
  * @m: the amount to decide change
  *
- * Return: the coins
+ * Return: coin
  */
 int make_change(int m)
 {
@@ -52,7 +52,7 @@ int make_change(int m)
 }
 
 /**
- * main - check code
+ * main - check code for the arguments
  * @argc: number of command line arguments in argv
  * @argv: array being reffered to by argc
  *
