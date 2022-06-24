@@ -47,8 +47,10 @@ int make_change(int m)
 		}
 	}
 	coin = quater + tens + fives + twos + bob;
+	
 	return (coin);
 }
+
 /**
  * main - check code
  * @argc: number of command line arguments in argv
@@ -59,6 +61,7 @@ int make_change(int m)
 int main(int argc, char *argv[])
 {
 	int coin;
+	
 	if (argc != 2)
 	{
 		printf("syntax\n");
