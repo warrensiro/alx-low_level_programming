@@ -12,9 +12,8 @@ int _strlen(char *s)
 	int x;
 
 	for (x = 0; s[x] != '\0'; x++)
-	{
-		return (x);
-	}
+		;
+	return (x);
 }
 /**
  * string_nconcat - function to concatenate two strings
@@ -26,7 +25,7 @@ int _strlen(char *s)
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *string;
+	char *arr;
 	unsigned int z, y, x;
 
 	if (s1 == NULL)
@@ -39,18 +38,18 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (n < z)
 		z = n;
 
-	string = malloc(y + z + 1);
+	arr = malloc(y + z + 1);
 
-	if (string == NULL)
+	if (arr == NULL)
 	{
 		return (NULL);
 	}
 
 	for (x = 0; x < y; x++)
-		*(string + x) = *(s1 + x);
+		*(arr + x) = *(s1 + x);
 
 	for (x = 0; x < z; x++)
-		*(string + (x + y)) = *(s2 + x);
-	*(string + (x + y)) = '\0';
-	return (string);
+		*(arr + (x + y)) = *(s2 + x);
+	*(arr + (x + y)) = '\0';
+	return (arr);
 }
