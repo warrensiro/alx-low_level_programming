@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - code entry point to print name of file it was compiled from
+ * main - check code entry point to print name of file it was compiled from
  * 
  * Return: Always success
  */
