@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include "lists.h"
-#include <string.h>
 #include <stdio.h>
 /**
  * free_listint - free memory allocation in this list
