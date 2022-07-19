@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * listint _len - check code to validate elements
+ * listint_len - function to validate number of elements in the list
  * @h: name of the list
  *
  * Return: elements in the list
