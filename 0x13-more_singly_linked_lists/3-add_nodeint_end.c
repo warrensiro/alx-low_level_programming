@@ -32,6 +32,6 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	{
 		point = point->next;
 	}
-	pointer->next = add;
+	point->next = add;
 	return (add);
 }
