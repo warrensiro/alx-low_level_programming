@@ -3,18 +3,17 @@
  * print_dlistint - function that prints all the elements of a dlistint_t list.
  * @h: input of a node.
  *
- * Return: EXIT_SUCCESS.
+ * Return: The number of nodes of the doubly linked list
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	const dlistint_t *tmp = h;
-	size_t i = 0;
+	int length = 0;
 
-	while (tmp)
+	while (h != NULL)
 	{
-		printf("%d\n", tmp->n);
-		tmp = tmp->next;
-		i++;
+		printf("%d\n", h->n);
+		++length;
+		h = h->next;
 	}
-	return (i);
+	return (length);
 }
